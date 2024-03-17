@@ -191,8 +191,10 @@ nav {
     color: var(--neutral-color-2)
 }
 
-.main-navigation-bar .active {
-    color: #fff
+
+
+.main-navigation-bar .active{
+    color: var(--neutral-color-1);
 }
 
 .background span:first-of-type,
@@ -918,7 +920,11 @@ img[alt=about-us4]:hover {
 .innovative-cards .left-column,
 .submit-btn,
 .test-center-container h1 {
-    font-weight: var(--font-weight-4)
+    font-weight: var(--font-weight-4);
+}
+
+.test-center-container h1{
+    text-align: center;
 }
 
 footer {
@@ -976,6 +982,12 @@ footer p {
     background-color: #000
 }
 
+.shuba-heading{
+    font-size: 19px;
+    text-align: right;
+    width: 80%;
+}
+
 .footer-tab p {
     padding: 0 var(--spacing-lg) 0 var(--spacing-lg)
 }
@@ -987,6 +999,7 @@ footer p {
 .overview {
     padding: 0 var(--spacing-lg);
     margin: var(--spacing-xxl) 0;
+    text-align: right;
 }
 
 .overview p {
@@ -1082,7 +1095,8 @@ img[alt="client"]{
 .test-center-background .black-card>p,
 .test-center-background .orange-card>p,
 .test-center-background p:first-of-type {
-    width: 70%;
+    /* width: 70%; */
+    text-align: right;
 }
 
 .test-center-background .section-container:nth-of-type(2) {
@@ -1092,7 +1106,8 @@ img[alt="client"]{
 .test-center-background .card {
     padding: var(--spacing-lg) var(--spacing-md);
     font-size: var(--h4-size);
-    text-transform: capitalize
+    text-transform: capitalize;
+    text-align: right;
 }
 
 .test-center-background .orange-card {
