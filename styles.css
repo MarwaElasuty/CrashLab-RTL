@@ -82,7 +82,7 @@ img[alt=mission3] {
     text-transform: uppercase;
     padding: var(--spacing-lg) var(--spacing-lg);
     position: relative;
-    left: 81px;
+    right: 80px;
     bottom: -51px;
     box-shadow: 0 0 11px 1px rgb(241 241 241);
     width: 43%;
